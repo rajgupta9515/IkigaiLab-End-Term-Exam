@@ -1,0 +1,130 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e27575;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    background-color: #b09b9b;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(152, 105, 105);
+}
+
+
+.card {
+    background-color: rgb(222, 63, 63);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.search {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px;
+}
+
+.search button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+.weather {
+    text-align: center;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 24px;
+}
+
+.city {
+    font-size: 18px;
+    color: #481010;
+    margin-bottom: 20px;
+}
+
+
+.details-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details {
+    display: flex;
+}
+
+.col {
+    margin: 0 20px;
+}
+
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+
+.google-map {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(225, 9, 9);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Centered Sections */
+#about, #connect, #location {
+    text-align: center;
+    box-shadow: 0 0 20px rgba(238, 127, 127, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
